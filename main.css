@@ -2,7 +2,7 @@
 /*****************************
 Colours
 main background: #222;
-content background:#444;
+content background:#444; done.
 footer background: #333;
 borders on header and main: #666;
 main text: #d4d4d4;
@@ -23,7 +23,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     margin: 0;
     box-sizing: border-box;
 }
-html, body{
+html, body{ Background-color: #222; text-decoration-color:#d4d4d4;
     font-size: 3vh; /* default font-size = 1.0rem */
 }
 h1{
@@ -38,7 +38,7 @@ p{
 nav a, nav a:link, nav a:visited{
 
 }
-a:hover, a:active{
+a:hover, a:active{ text-decoration-color: gold; text-shadow: bottom right #000, bottom left gold;
 
 }
 nav ul{
@@ -47,7 +47,7 @@ nav ul{
 nav li{
 
 }
-#wrapper{
+#wrapper{ content background-color:#444;
 
 }
 #masthead{
@@ -56,7 +56,7 @@ nav li{
 #main{
 
 }
-#footer{
+#footer{background: #333;
 
 }
 #footer p{
