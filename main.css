@@ -24,7 +24,7 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     box-sizing: border-box;
 }
 html, body{ Background-color: #222; text-decoration-color:#d4d4d4;
-    font-size: 3vh; /* default font-size = 1.0rem */
+    font-size: 3vh; default font-size = 1.0rem
 }
 h1{
    
@@ -35,11 +35,10 @@ h3{
 p{
 
 }
-nav a, nav a:link, nav a:visited{
+nav a, nav a:link, nav a:visited{ 
 
 }
-nav a:hover, nav a:active{ text-decoration-color: gold; text-shadow: bottom right #000, bottom left gold;
-
+nav a:hover, nav a:active{ text-decoration-color: #fff; 
 }
 nav ul{
 
@@ -50,13 +49,13 @@ nav li{
 #wrapper{ content background-color:#444;
 
 }
-#masthead{
+#masthead{background-image:"http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg"; text-shadow: bottom right #000 ; top left gold; boarder-color: #666;
 
 }
-#main{
+#main{ boarder-color: #666; text-decoration-color: #d4d4d4;
 
 }
-#footer{background: #333;
+#footer{background: #333; text-decoration-color: #999;
 
 }
 #footer p{
