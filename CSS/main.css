@@ -24,44 +24,55 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     box-sizing: border-box;
 }
 html, body{ Background-color: #222; 
-    font-size: 3vh; /*default font-size = 1.0rem*/ font-family: Calibri;
+    /*font-size: 3vh;*/ /*default*/  line-height:1.75;
+  font-family: sans-serif;
 }
-h1{font-family: verdana; font-shadow: bottom right #000, top left gold; boarder-color: #666; font-size:3rem; float:img "http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg";
+h1{ font-size: 6rem; padding: 5rem 1rem; font-family: 'Calibri'; 
+
 }
-}
-h3{ font-color: #d4d4d4; font-size:2rem;
+h3{margin: 3rem; color:#fff; font-size: 3rem; 
    
 }
-p{text-decoration-color:#d4d4d4;
+p{color:#d4d4d4; margin:2rem; background-color: #444; font-size: 2rem;
+    
+}
+nav a, nav a:link, nav a:visited{ color: gold; text-decoration: none; font-size: 2rem; background: #222; line-height: 1.5; display: block;
+}
+nav a:hover, nav a:active{background: #fff;
+}
+nav ul{list-style: none;
 
 }
-nav a, nav a:link, nav a:visited{ color: gold;
-
-}
-nav a:hover, nav a:active{ color: #fff; 
-}
-nav ul{
-
-}
-nav li{
+nav li{float:left;
+  width: 20%;
 
 }
 #mainnav{color: gold;
 
 }
-#wrapper{ content background-color:#444;
+#wrapper{  width: auto;
+  margin:0, auto;
+  background-color: #444;
+  color: #d4d4d4;
+   
 
 }
-#masthead{background-image:"http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg";  color:#d4d4d4;
+#masthead{ color:#fff; 
+    text-shadow: 2px 2px 2px #000, -2px -2px 2px gold; background:url(" http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg"); 
+    height:300px; 
+    width:928px; 
+    
+    
+    
 
 }
-#main{ boarder-color: #666; color: #d4d4d4;
+#main{ boarder-color: #666; 
 
 }
-#footer{background: #333; color: #999;
+#footer{background: #333; 
 
 }
-#footer p{color: #999;
+#footer p{color: #999; font-size:1rem; padding: 1rem 1.5rem;
 
 }
 #footer a{color: gold;
