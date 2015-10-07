@@ -66,8 +66,6 @@ nav li{float:left;
     width: 20%;
     border-bottom: 15px solid #666; 
     border-top: 15px solid #666; 
-
-
 }
 #mainnav{color: gold; background:#666;  
 
@@ -75,17 +73,12 @@ nav li{float:left;
 #wrapper{  width: auto;
   margin:0, auto;
   background-color: #444;
- 
-   
 
 }
 #masthead{ color:#fff; 
     text-shadow: 2px 2px 2px #000, -2px -2px 2px gold; background:url(" http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg"); 
    background-size: 100%;
     
-    
-    
-
 }
 #main{ boarder-color: #666;
       dispay:block;
