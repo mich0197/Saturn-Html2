@@ -24,57 +24,85 @@ http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
     box-sizing: border-box;
 }
 html, body{ Background-color: #222; 
-    /*font-size: 3vh;*/ /*default*/  line-height:1.75;
-  font-family: sans-serif;
+        width:auto;
+    /*font-size: 3vh;*/ /*default*/  
+    line-height:1.75;
+    font-family: sans-serif; 
+    float:left; 
+    padding-left:2%;
+    padding-right: 2%;
 }
-h1{ font-size: 6rem; padding: 5rem 1rem; font-family: 'Calibri'; 
+h1{ font-size: 6rem; 
+    padding: 3.5rem 1rem; 
+    font-family: 'Calibri'; 
 
 }
-h3{margin: 3rem; color:#fff; font-size: 3rem; 
+h3{margin: 3rem; 
+    color:#fff; 
+    font-size: 2.5rem; 
+    line-height: 4; 
    
 }
-p{color:#d4d4d4; margin:2rem; background-color: #444; font-size: 2rem;
+p{color:#d4d4d4; 
+    margin:2rem; 
+    background-color: #444; 
+    font-size: 1.5rem;
     
 }
-nav a, nav a:link, nav a:visited{ color: gold; text-decoration: none; font-size: 2rem; background: #222; line-height: 1.5; display: block;
+nav a, nav a:link, nav a:visited{ color: gold; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    line-height: 1.5; 
+    display: block; 
+    border-bottom-top: solid 15px #999;
 }
 nav a:hover, nav a:active{background: #fff;
 }
-nav ul{list-style: none;
-
+nav ul{list-style: none; 
+        padding: 3 0;
+    
 }
 nav li{float:left;
-  width: 20%;
+    width: 20%;
+    border-bottom: 15px solid #666; 
+    border-top: 15px solid #666; 
+
 
 }
-#mainnav{color: gold;
+#mainnav{color: gold; background:#666;  
 
 }
 #wrapper{  width: auto;
   margin:0, auto;
   background-color: #444;
-  color: #d4d4d4;
+ 
    
 
 }
 #masthead{ color:#fff; 
     text-shadow: 2px 2px 2px #000, -2px -2px 2px gold; background:url(" http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg"); 
-    height:300px; 
-    width:928px; 
+   background-size: 100%;
     
     
     
 
 }
-#main{ boarder-color: #666; 
+#main{ boarder-color: #666;
+      dispay:block;
 
 }
-#footer{background: #333; 
+#footer{ display:block; 
+        width: 100%; 
+        padding: 2rem 0;
 
 }
-#footer p{color: #999; font-size:1rem; padding: 1rem 1.5rem;
-
+#footer p{color: #999; 
+        font-size:1rem; 
+        background: #333; width: 100%; 
+        height: 10%; 
+        margin:0; 
+        padding: 3rem 3.5rem;
 }
-#footer a{color: gold;
+#footer a{color: gold; 
 
 }
